@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-container img{
+    border-radius: 100%;
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 85px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem 0 3rem;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 1rem;
+}
+
+a:hover {
+    color: rgb(65, 255, 246);
+}
+
+.left-nav {
+    padding: 20px;
+    display: flex;
+   
+    
+}
+.btn {
+    background-color: gray;
+}
+
+.mid-nav a {
+    font-size: 1.25rem;
+}
+
+.right-nav img {
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mid-info {
+    margin-top: 20vh;
+    color: white;
+    padding: 10rem 5rem 0 5rem;
+}
+
+.name {
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 
+}
+
+.name span {
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: rgb(65, 255, 246);   
+}
+
+.work {
+    letter-spacing: 2.5px;
+}
+
+.sec-des {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 9rem 7.5rem;
+    justify-content: space-between;
+}
+
+.sec-des-left {
+    width: 50ch;
+}
+
+.sec-des p {
+    line-height: 2;
+}
+
+h3 {
+    font-size: 3rem;
+    color: rgb(65, 255, 246);
+}
+
+.sec-des img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.exp {
+    padding: 10.1rem 7.5rem;
+    background: #0c0909;
+    color: rgb(235, 235 , 235);
+}
+
+.exp h3 {
+    background: #0c0909;
+    color: rgb(65, 255, 246);
+}
+
+.exp img {
+    border-radius: 10px;
+    width: 30vw;
+}
+
+.exp-left {
+    order: 2;
+}
+
+.contact {
+    padding: 9rem 7.5rem;
+    color: rgb(65, 255, 246);
+    background-color: #000000;
+}
+
+.contact > p {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 10rem;
+}
+
+.free {
+    font-weight: 600;
+    text-decoration: underline;
+}
+#CONTACT{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    font-family:  sans-serif;
+}
+#CONTACT h1{
+    color:wheat;
+    padding-left: 600px;
+    font-size: 100px;
+}
+#CONTACT h3{
+    padding-left: 600px;
+    color:wheat;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.social-icons img{
+    padding: 0px;
+    margin: 0px;
+    height: 60px;
+    margin-left: 85vh;
+}
+.email {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+footer a {
+    text-decoration: none;
+    padding-inline: 1.25rem;
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    font-weight: 500;
+    cursor: pointer;
+}
